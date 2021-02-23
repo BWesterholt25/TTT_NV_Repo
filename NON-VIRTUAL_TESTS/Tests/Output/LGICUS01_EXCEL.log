@@ -1,0 +1,94 @@
+10:24:05.959 INFO      TOPAZ            ***************************************
+10:24:05.959 INFO      TOPAZ            ** Execution from Topaz with options **
+10:24:05.960 INFO      TOPAZ            ***************************************
+10:24:05.960 INFO      TOPAZ            Using repository: true
+10:24:05.960 INFO      TOPAZ            Repository URL: http://cwcc:2020/totaltestapi/
+10:24:05.960 INFO      TOPAZ            ***************************************
+10:24:05.960 INFO      Engine           Test Scenario execution started
+10:24:05.960 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 5b5f2a71787be73b59238d7b
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : SNCBAW0
+  Use Repository Server         : true
+10:24:05.960 INFO      Engine           Setting variables from context and context data extensions
+10:24:05.961 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+10:24:05.961 INFO      Engine             id: environmentType    value: CICS
+10:24:05.961 INFO      Engine             id: userId             value: SNCBAW0
+10:24:05.961 INFO      Engine             id: accountingInfo     value: 
+10:24:05.961 INFO      Variable         Interpreting Variable id:data dataFile:LGICUS01_EXCEL_data.xlsx
+10:24:05.974 INFO      IterateData      Interpreting IterateData id: iterate. Number of data iterations: 3. Variable iterateIndex contains iteration number
+10:24:05.974 INFO      IterateData      Iteration number 0 started.
+10:24:05.975 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+10:24:05.976 INFO      Component        Component will be executed in CICS and top level element definitions are:
+10:24:05.977 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+10:24:05.978 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+10:24:06.051 INFO      HCIClient        Creating job directory /u/xatester/sncbaw0/2d1343a8e50344b28ce943a028e9f7df
+10:24:06.599 INFO      HCIClient        Job has been started at host with JobId:J0982389
+10:24:11.969 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SNCBAW0C(J0982389) ended with return code: 0000
+  Job name       : SNCBAW0C
+  Job id         : J0982389
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:24:12.081 INFO      CWCC CICS        Component completed with program exit: +0
+10:24:12.234 WARNING   CWCC CICS        Error deleting job directory /u/xatester/sncbaw0/2d1343a8e50344b28ce943a028e9f7df: Unable to delete directory /u/xatester/sncbaw0/2d1343a8e50344b28ce943a028e9f7df. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+10:24:12.235 WARNING   CWCC CICS        Unable to cleanup files at the server. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to delete directory /u/xatester/sncbaw0/2d1343a8e50344b28ce943a028e9f7df. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+10:24:12.247 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:24:12.281 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:24:12.282 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+10:24:12.283 INFO      IterateData      Iteration number 1 started.
+10:24:12.284 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+10:24:12.285 INFO      Component        Component will be executed in CICS and top level element definitions are:
+10:24:12.286 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+10:24:12.288 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+10:24:12.680 INFO      HCIClient        Creating job directory /u/xatester/sncbaw0/b7e934f237164866b50e6dea97be3708
+10:24:13.405 INFO      HCIClient        Job has been started at host with JobId:J0982390
+10:24:18.732 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SNCBAW0C(J0982390) ended with return code: 0000
+  Job name       : SNCBAW0C
+  Job id         : J0982390
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:24:18.853 INFO      CWCC CICS        Component completed with program exit: +0
+10:24:19.036 WARNING   CWCC CICS        Error deleting job directory /u/xatester/sncbaw0/b7e934f237164866b50e6dea97be3708: Unable to delete directory /u/xatester/sncbaw0/b7e934f237164866b50e6dea97be3708. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+10:24:19.036 WARNING   CWCC CICS        Unable to cleanup files at the server. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to delete directory /u/xatester/sncbaw0/b7e934f237164866b50e6dea97be3708. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+10:24:19.038 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:24:19.049 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:24:19.050 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+10:24:19.050 INFO      IterateData      Iteration number 2 started.
+10:24:19.050 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+10:24:19.051 INFO      Component        Component will be executed in CICS and top level element definitions are:
+10:24:19.051 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+10:24:19.052 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+10:24:19.443 INFO      HCIClient        Creating job directory /u/xatester/sncbaw0/b147073b6ade4f81ac5599a199d353d7
+10:24:19.949 INFO      HCIClient        Job has been started at host with JobId:J0982391
+10:24:25.279 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SNCBAW0C(J0982391) ended with return code: 0000
+  Job name       : SNCBAW0C
+  Job id         : J0982391
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:24:25.410 INFO      CWCC CICS        Component completed with program exit: +0
+10:24:25.546 WARNING   CWCC CICS        Error deleting job directory /u/xatester/sncbaw0/b147073b6ade4f81ac5599a199d353d7: Unable to delete directory /u/xatester/sncbaw0/b147073b6ade4f81ac5599a199d353d7. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+10:24:25.547 WARNING   CWCC CICS        Unable to cleanup files at the server. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to delete directory /u/xatester/sncbaw0/b147073b6ade4f81ac5599a199d353d7. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+10:24:25.557 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:24:25.575 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:24:25.576 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+10:24:25.576 INFO      IterateData      IterateData completed
+10:24:25.576 INFO      Engine           Test Scenario execution ended

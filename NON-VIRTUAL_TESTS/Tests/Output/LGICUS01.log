@@ -1,0 +1,48 @@
+09:23:24.045 INFO      TOPAZ            ***************************************
+09:23:24.046 INFO      TOPAZ            ** Execution from Topaz with options **
+09:23:24.046 INFO      TOPAZ            ***************************************
+09:23:24.046 INFO      TOPAZ            Using repository: true
+09:23:24.046 INFO      TOPAZ            Repository URL: http://cwcc:2020/totaltestapi/
+09:23:24.046 INFO      TOPAZ            ***************************************
+09:23:24.050 INFO      Engine           Test Scenario execution started
+09:23:24.051 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 5b5f2a71787be73b59238d7b
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : SNCBAW0
+  Use Repository Server         : true
+09:23:24.051 INFO      Engine           Setting variables from context and context data extensions
+09:23:24.052 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+09:23:24.052 INFO      Engine             id: environmentType    value: CICS
+09:23:24.052 INFO      Engine             id: userId             value: SNCBAW0
+09:23:24.052 INFO      Engine             id: accountingInfo     value: 
+09:23:24.054 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+09:23:24.057 INFO      Component        Component will be executed in CICS and top level element definitions are:
+09:23:24.057 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+09:23:24.104 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+09:23:24.222 INFO      HCIClient        Creating job directory /u/xatester/sncbaw0/dba6ec4180d34c1e8788fb2bb98e7a50
+09:23:24.751 INFO      HCIClient        Job has been started at host with JobId:J0982343
+09:23:30.183 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SNCBAW0C(J0982343) ended with return code: 0000
+  Job name       : SNCBAW0C
+  Job id         : J0982343
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+09:23:30.331 INFO      CWCC CICS        Component completed with program exit: +0
+09:23:31.693 WARNING   CWCC CICS        Error deleting job directory /u/xatester/sncbaw0/dba6ec4180d34c1e8788fb2bb98e7a50: Unable to delete directory /u/xatester/sncbaw0/dba6ec4180d34c1e8788fb2bb98e7a50. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+09:23:31.694 WARNING   CWCC CICS        Unable to cleanup files at the server. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to delete directory /u/xatester/sncbaw0/dba6ec4180d34c1e8788fb2bb98e7a50. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+09:23:31.703 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+09:23:32.221 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+09:23:32.222 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+09:23:32.224 INFO      Engine           Test Scenario execution ended

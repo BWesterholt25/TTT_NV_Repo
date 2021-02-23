@@ -1,0 +1,41 @@
+11:34:22.694 INFO      TOPAZ            ***************************************
+11:34:22.695 INFO      TOPAZ            ** Execution from Topaz with options **
+11:34:22.695 INFO      TOPAZ            ***************************************
+11:34:22.695 INFO      TOPAZ            Using repository: true
+11:34:22.696 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+11:34:22.696 INFO      TOPAZ            ***************************************
+11:34:22.700 INFO      Engine           Test Scenario execution started
+11:34:22.701 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : SNCBAW0
+  Use Repository Server         : true
+11:34:22.702 INFO      Engine           Setting variables from context and context data extensions
+11:34:22.704 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+11:34:22.708 INFO      Engine             id: environmentType    value: BATCH
+11:34:22.708 INFO      Engine             id: userId             value: SNCBAW0
+11:34:22.709 INFO      Engine             id: accountingInfo     value: 
+11:34:22.724 INFO      Job              Interpreting JOB: Job
+11:34:22.737 INFO      CWCC Batch       Sending Job execution request to Host 
+11:34:27.941 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : ABEND
+  Job status msg : Job SNCBAW0X(J0109295) ended with ABEND code: S0C7
+  Job name       : SNCBAW0X
+  Job id         : J0109295
+  Return code    : 
+  Abend code     : S0C7
+  Abend reason   : U0000
+11:34:27.943 INFO      Job              Successfully executed job: Job
+11:34:27.945 INFO      Component        Verifying job system abend code: S0C7 against verify expression: S0C7
+11:34:27.946 INFO      Component        Verifying job user abend code: U0000 against verify expression: S0C7
+11:34:27.948 INFO      Engine           Test Scenario execution ended
