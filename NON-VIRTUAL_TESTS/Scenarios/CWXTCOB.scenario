@@ -4,5 +4,6 @@
     <Job name="Job" haltExecution="false" description="EXECUTE CWXTJCLC" datasetName="SNCBAW0.TSO.JCLLIB(CWXTJCLC)" jobLocation="DATASET" returnCodeVerify="value &lt; 8">
       <Content><![CDATA[//XXX DD DSN=]]></Content>
     </Job>
+    <SpoolFile ddname="RPTFILE" stepname="CWXTCOB" ashex="false" id="spoolId" description="READ RPTFILE OUTPUT" />
   </Test>
 </XaUnit>

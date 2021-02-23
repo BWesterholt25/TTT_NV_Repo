@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
   <Test>
+    <Job name="IEFBR14" haltExecution="false" description="DELETE REPORT DATASET BEFORE RUNNING TEST" jobLocation="JOBDEFINITION" returnCodeVerify="value &lt; 8">
+      <Content><![CDATA[//STEP1 EXEC PGM=IEFBR14
+//DD1 DD DSN=SNCBAW0.REPORT.FILE,
+// DISP=(OLD,DELETE)]]></Content>
+    </Job>
     <Job name="Job" haltExecution="false" description="EXECUTE CWXTJCLC AND GENERATE SNCBAW.REPORT.FILE" datasetName="SNCBAW0.TSO.JCLLIB(CWXTJCLR)" jobLocation="DATASET" returnCodeVerify="value &lt; 8">
       <Content><![CDATA[//XXX DD DSN=]]></Content>
     </Job>
