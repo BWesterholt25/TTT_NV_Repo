@@ -1,11 +1,11 @@
-13:13:55.174 INFO      TOPAZ            ***************************************
-13:13:55.174 INFO      TOPAZ            ** Execution from Topaz with options **
-13:13:55.175 INFO      TOPAZ            ***************************************
-13:13:55.175 INFO      TOPAZ            Using repository: true
-13:13:55.176 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
-13:13:55.176 INFO      TOPAZ            ***************************************
-13:13:55.178 INFO      Engine           Test Scenario execution started
-13:13:55.178 INFO      Engine           Using context settings:
+17:00:18.218 INFO      TOPAZ            ***************************************
+17:00:18.218 INFO      TOPAZ            ** Execution from Topaz with options **
+17:00:18.219 INFO      TOPAZ            ***************************************
+17:00:18.219 INFO      TOPAZ            Using repository: true
+17:00:18.219 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+17:00:18.219 INFO      TOPAZ            ***************************************
+17:00:18.220 INFO      Engine           Test Scenario execution started
+17:00:18.220 INFO      Engine           Using context settings:
   Engine Version                : 20.5
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
@@ -20,24 +20,24 @@
   Codepage                      : IBM-1047
   Host user Id                  : SNCBAW0
   Use Repository Server         : true
-13:13:55.179 INFO      Engine           Setting variables from context and context data extensions
-13:13:55.179 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-13:13:55.179 INFO      Engine             id: environmentType    value: BATCH
-13:13:55.179 INFO      Engine             id: userId             value: SNCBAW0
-13:13:55.179 INFO      Engine             id: accountingInfo     value: 
-13:13:55.181 INFO      Job              Interpreting JOB: Job
-13:13:55.181 INFO      Job              The Job in File/Dataset SNCBAW0.TSO.JCLLIB(CWXTJCLC) will be executed
-13:13:55.182 INFO      CWCC Batch       Sending Job execution request to Host 
-13:14:00.313 INFO      CWCC Batch       Job execution completed with status:
+17:00:18.220 INFO      Engine           Setting variables from context and context data extensions
+17:00:18.220 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+17:00:18.221 INFO      Engine             id: environmentType    value: BATCH
+17:00:18.221 INFO      Engine             id: userId             value: SNCBAW0
+17:00:18.221 INFO      Engine             id: accountingInfo     value: 
+17:00:18.222 INFO      Job              Interpreting JOB: Job
+17:00:18.222 INFO      Job              The Job in File/Dataset SNCBAW0.TSO.JCLLIB(CWXTJCLC) will be executed
+17:00:18.222 INFO      CWCC Batch       Sending Job execution request to Host 
+17:00:23.347 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job SNCBAW0X(J0109329) ended with return code: 0000
+  Job status msg : Job SNCBAW0X(J0109434) ended with return code: 0000
   Job name       : SNCBAW0X
-  Job id         : J0109329
+  Job id         : J0109434
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:14:00.314 INFO      Job              Successfully executed job: Job
-13:14:00.315 INFO      Component        Verifying job return code: 0000 against verify expression: value < 8
-13:14:00.342 INFO      SpoolFile        Interpreting SpoolFile element
-13:14:00.342 INFO      SpoolFile        Interpreting SpoolFile with jobId: J0109329 jobNameSNCBAW0X DD name: RPTFILE step name: CWXTCOB
-13:14:01.062 INFO      Engine           Test Scenario execution ended
+17:00:23.347 INFO      Job              Successfully executed job: Job
+17:00:23.347 INFO      Component        Verifying job return code: 0000 against verify expression: value < 8
+17:00:23.356 INFO      SpoolFile        Interpreting SpoolFile element
+17:00:23.357 INFO      SpoolFile        Interpreting SpoolFile with jobId: J0109434 jobNameSNCBAW0X DD name: RPTFILE step name: CWXTCOB
+17:00:23.496 INFO      Engine           Test Scenario execution ended

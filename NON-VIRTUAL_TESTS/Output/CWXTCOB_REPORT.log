@@ -1,11 +1,11 @@
-13:12:05.702 INFO      TOPAZ            ***************************************
-13:12:05.702 INFO      TOPAZ            ** Execution from Topaz with options **
-13:12:05.703 INFO      TOPAZ            ***************************************
-13:12:05.703 INFO      TOPAZ            Using repository: true
-13:12:05.704 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
-13:12:05.705 INFO      TOPAZ            ***************************************
-13:12:05.705 INFO      Engine           Test Scenario execution started
-13:12:05.706 INFO      Engine           Using context settings:
+17:04:33.870 INFO      TOPAZ            ***************************************
+17:04:33.870 INFO      TOPAZ            ** Execution from Topaz with options **
+17:04:33.870 INFO      TOPAZ            ***************************************
+17:04:33.870 INFO      TOPAZ            Using repository: true
+17:04:33.871 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+17:04:33.871 INFO      TOPAZ            ***************************************
+17:04:33.872 INFO      Engine           Test Scenario execution started
+17:04:33.872 INFO      Engine           Using context settings:
   Engine Version                : 20.5
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
@@ -20,49 +20,49 @@
   Codepage                      : IBM-1047
   Host user Id                  : SNCBAW0
   Use Repository Server         : true
-13:12:05.706 INFO      Engine           Setting variables from context and context data extensions
-13:12:05.706 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-13:12:05.706 INFO      Engine             id: environmentType    value: BATCH
-13:12:05.707 INFO      Engine             id: userId             value: SNCBAW0
-13:12:05.707 INFO      Engine             id: accountingInfo     value: 
-13:12:05.708 INFO      Job              Interpreting JOB: IEFBR14
-13:12:05.709 INFO      CWCC Batch       Sending Job execution request to Host 
-13:12:05.918 INFO      CWCC Batch       Job execution completed with status:
+17:04:33.872 INFO      Engine           Setting variables from context and context data extensions
+17:04:33.872 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+17:04:33.872 INFO      Engine             id: environmentType    value: BATCH
+17:04:33.872 INFO      Engine             id: userId             value: SNCBAW0
+17:04:33.873 INFO      Engine             id: accountingInfo     value: 
+17:04:33.875 INFO      Job              Interpreting JOB: IEFBR14
+17:04:33.876 INFO      CWCC Batch       Sending Job execution request to Host 
+17:04:34.046 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job SNCBAW0(J0109324) ended with return code: 0000
+  Job status msg : Job SNCBAW0(J0109436) ended with return code: 0000
   Job name       : SNCBAW0
-  Job id         : J0109324
+  Job id         : J0109436
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:12:05.919 INFO      Job              Successfully executed job: IEFBR14
-13:12:05.919 INFO      Component        Verifying job return code: 0000 against verify expression: value < 8
-13:12:06.522 INFO      Job              Interpreting JOB: Job
-13:12:06.523 INFO      Job              The Job in File/Dataset SNCBAW0.TSO.JCLLIB(CWXTJCLR) will be executed
-13:12:06.524 INFO      CWCC Batch       Sending Job execution request to Host 
-13:12:11.653 INFO      CWCC Batch       Job execution completed with status:
+17:04:34.047 INFO      Job              Successfully executed job: IEFBR14
+17:04:34.047 INFO      Component        Verifying job return code: 0000 against verify expression: value < 8
+17:04:34.060 INFO      Job              Interpreting JOB: Job
+17:04:34.060 INFO      Job              The Job in File/Dataset SNCBAW0.TSO.JCLLIB(CWXTJCLR) will be executed
+17:04:34.061 INFO      CWCC Batch       Sending Job execution request to Host 
+17:04:39.183 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job SNCBAW0X(J0109325) ended with return code: 0000
+  Job status msg : Job SNCBAW0X(J0109437) ended with return code: 0000
   Job name       : SNCBAW0X
-  Job id         : J0109325
+  Job id         : J0109437
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:12:11.654 INFO      Job              Successfully executed job: Job
-13:12:11.655 INFO      Component        Verifying job return code: 0000 against verify expression: value < 8
-13:12:11.699 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: SNCBAW0.REPORT.FILE2
-13:12:11.712 INFO      CWCC Batch       Sending Job execution request to Host 
-13:12:11.795 INFO      HCIClient        Creating job directory /u/xatester/sncbaw0/369151decfc5400da9c637cd8ba705df
-13:12:12.149 INFO      HCIClient        Job has been started at host with JobId:J0109326
-13:12:17.385 INFO      CWCC Batch       Job execution completed with status:
+17:04:39.183 INFO      Job              Successfully executed job: Job
+17:04:39.183 INFO      Component        Verifying job return code: 0000 against verify expression: value < 8
+17:04:39.194 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: SNCBAW0.REPORT.FILE2
+17:04:39.195 INFO      CWCC Batch       Sending Job execution request to Host 
+17:04:39.267 INFO      HCIClient        Creating job directory /u/xatester/sncbaw0/6ed4d4d08dfe404898023f2cabba8bf7
+17:04:39.589 INFO      HCIClient        Job has been started at host with JobId:J0109438
+17:04:44.818 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job SNCBAW0S(J0109326) ended with return code: 0000
+  Job status msg : Job SNCBAW0S(J0109438) ended with return code: 0000
   Job name       : SNCBAW0S
-  Job id         : J0109326
+  Job id         : J0109438
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:12:17.500 ERROR     VerifyRemoteFile Comparison of DSN expected:SNCBAW0.REPORT.FILE actual:SNCBAW0.REPORT.FILE2 was FAIL
-13:12:17.606 ERROR     VerifyRemoteFile Expected and Actual files/datasets are NOT equal
-13:12:17.611 ERROR     VerifyRemoteFile Actual and expected datasets are not equal. Differences found in one or more records between actual dataset: SNCBAW0.REPORT.FILE2 and expected dataset:SNCBAW0.REPORT.FILE
-13:12:17.612 INFO      Engine           Test Scenario execution ended
+17:04:44.918 ERROR     VerifyRemoteFile Comparison of DSN expected:SNCBAW0.REPORT.FILE actual:SNCBAW0.REPORT.FILE2 was FAIL
+17:04:45.012 ERROR     VerifyRemoteFile Expected and Actual files/datasets are NOT equal
+17:04:45.013 ERROR     VerifyRemoteFile Actual and expected datasets are not equal. Differences found in one or more records between actual dataset: SNCBAW0.REPORT.FILE2 and expected dataset:SNCBAW0.REPORT.FILE
+17:04:45.013 INFO      Engine           Test Scenario execution ended
